@@ -1,0 +1,1 @@
+openapi-generator-cli generate -g rust -c config.yml -i .\jellyfin-openapi-stable.json -o jellyfin_sdk

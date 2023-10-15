@@ -1,0 +1,17 @@
+[package]
+name = "iced_jellyfin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced_video = {path = "../iced_video"}
+tokio = {version = "1.27.0", features = ["full"]}
+
+
+[dependencies.iced]
+features = ["tokio", "debug", "image", "svg"]
+version = "0.10"
+
+
